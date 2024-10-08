@@ -1,5 +1,4 @@
-# Prime Number Algorithms with Multithreading: Segmented Sieve & Sieve of Atkin
-
+# Finding prime numbers using the Sieve of Eratosthenes and Sieve of Atkin algorithms with Multithreading
 This project implements two prime number algorithms—**Segmented Sieve** and **Sieve of Atkin**—with multithreading support. By dividing the prime number calculation across several threads, we achieve performance gains, especially over larger ranges. Below, we present the performance statistics and insights for both algorithms.
 
 ## 1. Segmented Sieve Algorithm
