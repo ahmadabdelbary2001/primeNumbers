@@ -9,8 +9,8 @@ This algorithm was tested, and the results are provided in the accompanying scre
 
 ### Observations
 - As the range of the values increase, time to execute reduces drastically on using multi-threading.
-- It gave the best performance by switching between 2 threads and 4 threads; the latter, in fact, has proved to be the most efficient and has aligned with the number of virtual threads featured on a test machine: Intel Core i7, 2nd generation, 2 cores, 4 threads.
-- 
+- It gave the best performance between 2 threads and 4 threads; the latter, in fact, has proved to be the most efficient and has aligned with the number of virtual threads featured on a test machine: Intel Core i7, 2nd generation, 2 cores, 4 threads.
+
 ## Sieve of Atkin Algorithm
 This algorithm was tested, and the results are provided in the accompanying screenshot.
 
