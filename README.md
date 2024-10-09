@@ -8,6 +8,11 @@
 
 When testing this algorithm, the following results appeared:
 
+Range: [1, 100]
+
+| Number of threads  | 1           | 2           | 4           | 8           | 16           | 32           | 64           |
+| Time (ms)          | 2           | 119.15     | 1           | 1           | 1           | 1           | 1           |
+
 | Range          | Threads | Time (ms)  |
 |----------------|---------|------------|
 | [1, 100]       | 1       | 141.05     |
