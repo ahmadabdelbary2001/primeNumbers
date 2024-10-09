@@ -1,8 +1,8 @@
 # Finding prime numbers using the Sieve of Eratosthenes and Sieve of Atkin algorithms with Multithreading
 
 ## Description
-The project makes use of multithreaded support for two prime number algorithms, namely **Sieve of Eratosthenes** and the **Sieve of Atkin**. The results are really significant performance improvements due to spreading the calculations across several threads and can handle larger ranges of numbers.
-The two algorithms were tested on the ranges (100, 1000, 10000, 100000, 1000000, 10000000, 100000000) and each range was tested on multiple threads (1, 2, 4, 8, 16, 32, 64).
+- The project makes use of multithreaded support for two prime number algorithms, namely **Sieve of Eratosthenes** and the **Sieve of Atkin**. The results are really significant performance improvements due to spreading the calculations across several threads and can handle larger ranges of numbers.
+- The two algorithms were tested on the ranges (100, 1000, 10000, 100000, 1000000, 10000000, 100000000) and each range was tested on multiple threads (1, 2, 4, 8, 16, 32, 64).
 
 ## 1. Segmented Sieve Algorithm
 
