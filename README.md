@@ -19,4 +19,4 @@ This algorithm was tested, and the results are provided in the accompanying scre
 - Just like the Segmented Sieve, performance peaked between 2 threads and 4 threads in a similar manner in which it did in the previous algorithm.
 
 ## Conclusion
-In conclusion, Segmented Sieve handles larger data much better; it's far more performance- and memory-efficient.
+In conclusion, Segmented Sieve handles larger data much better.
