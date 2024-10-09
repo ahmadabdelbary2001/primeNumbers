@@ -6,26 +6,59 @@
 
 ## 1. Segmented Sieve Algorithm
 
-The Segmented Sieve algorithm was applied across several ranges, using different thread counts. The following table captures the execution time and the number of primes found for each range.
+When testing this algorithm, the following results appeared:
 
-| Range          | Threads | Time (ms)  | Primes Count |
-|----------------|---------|------------|--------------|
-| [2, 1,000,000]   | 1       | 141.05     | 78,498       |
-|                | 2       | 119.15     | -            |
-|                | 4       | 121.83     | -            |
-|                | 8       | 134.60     | -            |
-| [2, 10,000,000]  | 1       | 500.00     | 664,579      |
-|                | 2       | 296.37     | -            |
-|                | 4       | 413.09     | -            |
-|                | 8       | 540.31     | -            |
-| [2, 100,000,000] | 1       | 2,985.83   | 5,761,455    |
-|                | 2       | 2,121.81   | -            |
-|                | 4       | 1,774.18   | -            |
-|                | 8       | 2,435.20   | -            |
-| [2, 1,000,000,000]| 1      | 22,309.12  | 50,847,534   |
-|                | 2       | 16,630.84  | -            |
-|                | 4       | 12,567.26  | -            |
-|                | 8       | 20,682.91  | -            |
+| Range          | Threads | Time (ms)  |
+|----------------|---------|------------|
+| [1, 100]       | 1       | 141.05     |
+|                | 2       | 119.15     |
+|                | 4       | 121.83     |
+|                | 8       | 134.60     |
+|                | 16       | 134.60     |
+|                | 32       | 134.60     |
+|                | 64       | 134.60     |
+| [1, 1,000]  | 1       | 500.00     |
+|                | 2       | 119.15     |
+|                | 4       | 121.83     |
+|                | 8       | 134.60     |
+|                | 16       | 134.60     |
+|                | 32       | 134.60     |
+|                | 64       | 134.60     |
+| [1, 10,000] | 1       | 2,985.83   |
+|                | 2       | 119.15     |
+|                | 4       | 121.83     |
+|                | 8       | 134.60     |
+|                | 16       | 134.60     |
+|                | 32       | 134.60     |
+|                | 64       | 134.60     |
+| [1, 100,000]| 1      | 22,309.12  |
+|                | 2       | 119.15     |
+|                | 4       | 121.83     |
+|                | 8       | 134.60     |
+|                | 16       | 134.60     |
+|                | 32       | 134.60     |
+|                | 64       | 134.60     |
+| [1, 1,000,000]   | 1       | 141.05     |
+|                | 2       | 119.15     |
+|                | 4       | 121.83     |
+|                | 8       | 134.60     |
+|                | 16       | 134.60     |
+|                | 32       | 134.60     |
+|                | 64       | 134.60     |
+| [1, 10,000,000]  | 1       | 500.00     |
+|                | 2       | 119.15     |
+|                | 4       | 121.83     |
+|                | 8       | 134.60     |
+|                | 16       | 134.60     |
+|                | 32       | 134.60     |
+|                | 64       | 134.60     |
+| [1, 100,000,000] | 1       | 2,985.83   |
+|                | 2       | 119.15     |
+|                | 4       | 121.83     |
+|                | 8       | 134.60     |
+|                | 16       | 134.60     |
+|                | 32       | 134.60     |
+|                | 64       | 134.60     |
 
 ### Observations:
 - As the range increases, multithreading significantly reduces execution time.
@@ -54,7 +87,7 @@ The Segmented Sieve algorithm was applied across several ranges, using different
 
 ## 2. Sieve of Atkin Algorithm
 
-The Sieve of Atkin algorithm was also tested across various ranges and thread counts. The following table highlights the execution times and prime counts.
+When testing this algorithm, the following results appeared:
 
 | Range          | Threads | Time (ms)  | Primes Count |
 |----------------|---------|------------|--------------|
