@@ -4,7 +4,7 @@
 - The project makes use of multithreaded support for two prime number algorithms, namely **Sieve of Eratosthenes** and the **Sieve of Atkin**. The results are really significant performance improvements due to spreading the calculations across several threads and can handle larger ranges of numbers.
 - The two algorithms were tested on the ranges (100, 1000, 10000, 100000, 1000000, 10000000, 100000000) and each range was tested on multiple threads (1, 2, 4, 8, 16, 32, 64).
 
-## Segmented Sieve Algorithm
+## Sieve of Eratosthenes Algorithm
 This algorithm was tested, and the results are provided in the accompanying screenshot.
 
 ### Observations
@@ -16,7 +16,7 @@ This algorithm was tested, and the results are provided in the accompanying scre
 
 ### Observations
 - The Sieve of Atkin performed better than the Segmented Sieve when ranges were of lesser magnitude.
-- Just like the Segmented Sieve, performance peaked between 2 threads and 4 threads in a similar manner in which it did in the previous algorithm.
+- Just like the Sieve of Eratosthenes, performance peaked between 2 threads and 4 threads in a similar manner in which it did in the previous algorithm.
 
 ## Conclusion
-In conclusion, Segmented Sieve handles larger data much better.
+In conclusion, Sieve of Eratosthenes handles larger data much better.
